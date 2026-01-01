@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V-Coffee</title>
-    <link rel="icon" href="{{ asset('../img/logo.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/png">
     <meta name="description"
         content="Tempat terbaik menikmati kopi premium dengan suasana nyaman dan harga bersahabat.">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -66,7 +66,7 @@
     <nav class="fixed w-full z-50 transition-all duration-300 glass-nav py-4">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
             <div class="flex items-center gap-2">
-                <img src="{{ asset('../img/logo.png') }}" alt="V-Coffee Logo" class="w-10 h-10 object-contain">
+                <img src="{{ asset('img/logo.png') }}" alt="V-Coffee Logo" class="w-10 h-10 object-contain">
                 <span class="text-xl font-serif font-bold text-coffee-900 tracking-tight">V-Coffee</span>
             </div>
 
@@ -100,7 +100,7 @@
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
             <!-- Local generated hero image -->
-            <img src="{{ asset('../img/hero-bg.png') }}" alt="V-Coffee Interior" class="w-full h-full object-cover">
+            <img src="{{ asset('img/hero-bg.png') }}" alt="V-Coffee Interior" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-coffee-900/90"></div>
         </div>
 
